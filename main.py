@@ -7,6 +7,8 @@ from collections import defaultdict
 import settings
 import re
 import settings.utils as utils
+from keep_alive import keep_alive
+keep_alive()
 
 bot = commands.Bot(command_prefix=settings.CMD_PREF, intents=settings.INTENTS)
 invites = {}  # To store the invites and their usage count
