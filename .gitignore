@@ -1,0 +1,5 @@
+cashbot.db
+cashbot.db-shm
+cashbot.db-wal
+__pycache__/
+.venv/
